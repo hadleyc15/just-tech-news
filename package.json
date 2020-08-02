@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --verbose __tests__",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -25,11 +25,9 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
     "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.3"
-  },
-  "directories": {
-    "test": "__tests__"
   },
   "devDependencies": {
     "jest": "^26.2.1"
